@@ -1,0 +1,15 @@
+Filesystem            Size Used Avail Use% Mounted on
+tmpfs                 976M 1.2M  975M   1% /dev
+tmpfs                 976M    0  976M   0% /mnt
+/dev/block/mmcblk2p15  10M  80K  9.4M   1% /metadata
+/dev/block/dm-16      895M 893M     0 100% /
+/dev/block/dm-17      197M 197M     0 100% /vendor
+/dev/block/dm-18      640K 636K     0 100% /odm
+/dev/block/dm-20      217M 217M     0 100% /system_ext
+/dev/block/dm-21      980K 976K     0 100% /vendor_dlkm
+/dev/block/dm-22      232K  36K  192K  16% /odm_dlkm
+/dev/block/dm-23      205M 204M     0 100% /product
+tmpfs                 976M 8.0K  976M   1% /apex
+/dev/block/mmcblk2p14 320M 228K  308M   1% /cache
+/dev/block/mmcblk2p19 8.2G 319M  7.7G   4% /data
+/dev/fuse             8.2G 319M  7.7G   4% /storage/emulated

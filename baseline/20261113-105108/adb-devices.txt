@@ -1,0 +1,3 @@
+List of devices attached
+5133EB0134A3           device usb:1179648X product:rk3562_15_inch model:rk3562_15_inch device:rk3562_15_inch transport_id:1
+

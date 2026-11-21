@@ -1,0 +1,249 @@
+Activity Resolver Table:
+  Non-Data Actions:
+      android.intent.action.MAIN:
+        f7011d5 skylight.keyboard/com.android.inputmethod.latin.settings.SettingsActivity filter 7e4adea
+          Action: "android.intent.action.MAIN"
+        65788db skylight.keyboard/com.android.inputmethod.latin.spellcheck.SpellCheckerSettingsActivity filter 35a2f78
+          Action: "android.intent.action.MAIN"
+        6acf651 skylight.keyboard/com.android.inputmethod.dictionarypack.DictionarySettingsActivity filter e57beb6
+          Action: "android.intent.action.MAIN"
+        e3bd7b7 skylight.keyboard/com.android.inputmethod.dictionarypack.DownloadOverMeteredDialog filter 9becb24
+          Action: "android.intent.action.MAIN"
+
+Receiver Resolver Table:
+  Non-Data Actions:
+      androidx.profileinstaller.action.SAVE_PROFILE:
+        91a1a45 skylight.keyboard/androidx.profileinstaller.ProfileInstallReceiver filter 57466a8
+          Action: "androidx.profileinstaller.action.SAVE_PROFILE"
+      android.accounts.LOGIN_ACCOUNTS_CHANGED:
+        5b806af skylight.keyboard/com.android.inputmethod.latin.accounts.AccountsChangedReceiver filter bbe5abc
+          Action: "android.accounts.LOGIN_ACCOUNTS_CHANGED"
+      android.intent.action.USER_INITIALIZE:
+        9f9a68d skylight.keyboard/com.android.inputmethod.latin.SystemBroadcastReceiver filter e191042
+          Action: "android.intent.action.MY_PACKAGE_REPLACED"
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.USER_INITIALIZE"
+          Action: "android.intent.action.LOCALE_CHANGED"
+      android.intent.action.LOCALE_CHANGED:
+        9f9a68d skylight.keyboard/com.android.inputmethod.latin.SystemBroadcastReceiver filter e191042
+          Action: "android.intent.action.MY_PACKAGE_REPLACED"
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.USER_INITIALIZE"
+          Action: "android.intent.action.LOCALE_CHANGED"
+      androidx.profileinstaller.action.INSTALL_PROFILE:
+        91a1a45 skylight.keyboard/androidx.profileinstaller.ProfileInstallReceiver filter a7c659a
+          Action: "androidx.profileinstaller.action.INSTALL_PROFILE"
+      androidx.profileinstaller.action.SKIP_FILE:
+        91a1a45 skylight.keyboard/androidx.profileinstaller.ProfileInstallReceiver filter d085ecb
+          Action: "androidx.profileinstaller.action.SKIP_FILE"
+      androidx.profileinstaller.action.BENCHMARK_OPERATION:
+        91a1a45 skylight.keyboard/androidx.profileinstaller.ProfileInstallReceiver filter 7c715c1
+          Action: "androidx.profileinstaller.action.BENCHMARK_OPERATION"
+      android.intent.action.BOOT_COMPLETED:
+        9f9a68d skylight.keyboard/com.android.inputmethod.latin.SystemBroadcastReceiver filter e191042
+          Action: "android.intent.action.MY_PACKAGE_REPLACED"
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.USER_INITIALIZE"
+          Action: "android.intent.action.LOCALE_CHANGED"
+      android.intent.action.DATE_CHANGED:
+        6e71e89 skylight.keyboard/com.android.inputmethod.dictionarypack.EventHandler filter 2abee8e
+          Action: "android.intent.action.DOWNLOAD_COMPLETE"
+          Action: "android.intent.action.DATE_CHANGED"
+          Action: "skylight.keyboard.dictionarypack.UPDATE_NOW"
+          Action: "skylight.keyboard.dictionarypack.INIT_AND_UPDATE_NOW"
+      android.intent.action.DOWNLOAD_COMPLETE:
+        6e71e89 skylight.keyboard/com.android.inputmethod.dictionarypack.EventHandler filter 2abee8e
+          Action: "android.intent.action.DOWNLOAD_COMPLETE"
+          Action: "android.intent.action.DATE_CHANGED"
+          Action: "skylight.keyboard.dictionarypack.UPDATE_NOW"
+          Action: "skylight.keyboard.dictionarypack.INIT_AND_UPDATE_NOW"
+      skylight.keyboard.dictionarypack.UPDATE_NOW:
+        6e71e89 skylight.keyboard/com.android.inputmethod.dictionarypack.EventHandler filter 2abee8e
+          Action: "android.intent.action.DOWNLOAD_COMPLETE"
+          Action: "android.intent.action.DATE_CHANGED"
+          Action: "skylight.keyboard.dictionarypack.UPDATE_NOW"
+          Action: "skylight.keyboard.dictionarypack.INIT_AND_UPDATE_NOW"
+      skylight.keyboard.dictionarypack.INIT_AND_UPDATE_NOW:
+        6e71e89 skylight.keyboard/com.android.inputmethod.dictionarypack.EventHandler filter 2abee8e
+          Action: "android.intent.action.DOWNLOAD_COMPLETE"
+          Action: "android.intent.action.DATE_CHANGED"
+          Action: "skylight.keyboard.dictionarypack.UPDATE_NOW"
+          Action: "skylight.keyboard.dictionarypack.INIT_AND_UPDATE_NOW"
+      android.intent.action.MY_PACKAGE_REPLACED:
+        9f9a68d skylight.keyboard/com.android.inputmethod.latin.SystemBroadcastReceiver filter e191042
+          Action: "android.intent.action.MY_PACKAGE_REPLACED"
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.USER_INITIALIZE"
+          Action: "android.intent.action.LOCALE_CHANGED"
+      skylight.keyboard.dictionarypack.UNKNOWN_CLIENT:
+        8ac3853 skylight.keyboard/com.android.inputmethod.latin.DictionaryPackInstallBroadcastReceiver filter daf7590
+          Action: "skylight.keyboard.dictionarypack.UNKNOWN_CLIENT"
+
+Service Resolver Table:
+  Non-Data Actions:
+      android.view.InputMethod:
+        cab4166 skylight.keyboard/com.android.inputmethod.latin.LatinIME filter dbc1ca7 permission android.permission.BIND_INPUT_METHOD
+          Action: "android.view.InputMethod"
+      android.service.textservice.SpellCheckerService:
+        9fd4554 skylight.keyboard/com.android.inputmethod.latin.spellcheck.AndroidSpellCheckerService filter eee4cfd permission android.permission.BIND_TEXT_SERVICE
+          Action: "android.service.textservice.SpellCheckerService"
+
+Domain verification status:
+
+Permissions:
+  Permission [skylight.keyboard.HIDE_SOFT_INPUT] (a44f640):
+    sourcePackage=skylight.keyboard
+    uid=10065 gids=[] type=0 prot=signature
+    perm=PermissionInfo{7e48979 skylight.keyboard.HIDE_SOFT_INPUT}
+
+Permissions:
+  Permission [skylight.keyboard.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION] (ac796be):
+    sourcePackage=skylight.keyboard
+    uid=10065 gids=[] type=0 prot=signature
+    perm=PermissionInfo{bdd431f skylight.keyboard.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION}
+
+Registered ContentProviders:
+  skylight.keyboard/androidx.startup.InitializationProvider:
+    Provider{a3366c skylight.keyboard/androidx.startup.InitializationProvider}
+  skylight.keyboard/io.sentry.android.core.SentryPerformanceProvider:
+    Provider{39b4435 skylight.keyboard/io.sentry.android.core.SentryPerformanceProvider}
+  skylight.keyboard/io.sentry.android.core.SentryInitProvider:
+    Provider{de260ca skylight.keyboard/io.sentry.android.core.SentryInitProvider}
+  skylight.keyboard/com.android.inputmethod.dictionarypack.DictionaryProvider:
+    Provider{91cf23b skylight.keyboard/com.android.inputmethod.dictionarypack.DictionaryProvider}
+
+ContentProvider Authorities:
+  [skylight.keyboard.SentryPerformanceProvider]:
+    Provider{39b4435 skylight.keyboard/io.sentry.android.core.SentryPerformanceProvider}
+      applicationInfo=ApplicationInfo{7c34d58 skylight.keyboard}
+  [skylight.keyboard.androidx-startup]:
+    Provider{a3366c skylight.keyboard/androidx.startup.InitializationProvider}
+      applicationInfo=ApplicationInfo{9c8eeb1 skylight.keyboard}
+  [skylight.keyboard.SentryInitProvider]:
+    Provider{de260ca skylight.keyboard/io.sentry.android.core.SentryInitProvider}
+      applicationInfo=ApplicationInfo{12dbf96 skylight.keyboard}
+  [skylight.keyboard.dictionarypack]:
+    Provider{91cf23b skylight.keyboard/com.android.inputmethod.dictionarypack.DictionaryProvider}
+      applicationInfo=ApplicationInfo{4de7717 skylight.keyboard}
+
+Key Set Manager:
+  [skylight.keyboard]
+      Signing KeySets: 2
+
+Packages:
+  Package [skylight.keyboard] (dcbe704):
+    userId=10065
+    pkg=Package{14cc4ed skylight.keyboard}
+    codePath=/data/app/~~bayumG2r6BHazdiAkZ2yIQ==/skylight.keyboard-gdKMQ5uVRmASKPIJH4PiTQ==
+    resourcePath=/data/app/~~bayumG2r6BHazdiAkZ2yIQ==/skylight.keyboard-gdKMQ5uVRmASKPIJH4PiTQ==
+    legacyNativeLibraryDir=/data/app/~~bayumG2r6BHazdiAkZ2yIQ==/skylight.keyboard-gdKMQ5uVRmASKPIJH4PiTQ==/lib
+    extractNativeLibs=false
+    primaryCpuAbi=arm64-v8a
+    secondaryCpuAbi=null
+    cpuAbiOverride=null
+    versionCode=27943 minSdk=25 targetSdk=35
+    minExtensionVersions=[]
+    versionName=1.5.0
+    usesNonSdkApi=false
+    splits=[base]
+    apkSigningVersion=3
+    flags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    privateFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION ALLOW_AUDIO_PLAYBACK_CAPTURE PRIVATE_FLAG_ALLOW_NATIVE_HEAP_POINTER_TAGGING ]
+    forceQueryable=false
+    queriesPackages=[com.skylight.buddy]
+    dataDir=/data/user/0/skylight.keyboard
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    timeStamp=2026-11-13 03:32:59
+    lastUpdateTime=2026-11-13 03:33:03
+    installerPackageName=skylight.watchdog
+    packageSource=0
+    signatures=PackageSignatures{dfe3f22 version:3, signatures:[37958783], past signatures:[]}
+    installPermissionsFixed=true
+    pkgFlags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    declared permissions:
+      skylight.keyboard.HIDE_SOFT_INPUT: prot=signature, INSTALLED
+      skylight.keyboard.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION: prot=signature, INSTALLED
+    requested permissions:
+      android.permission.ACCESS_NETWORK_STATE
+      android.permission.DOWNLOAD_WITHOUT_NOTIFICATION
+      android.permission.GET_ACCOUNTS
+      android.permission.INTERNET
+      android.permission.READ_CONTACTS
+      android.permission.READ_PROFILE
+      android.permission.READ_SYNC_SETTINGS
+      android.permission.READ_SYNC_STATS
+      android.permission.READ_USER_DICTIONARY
+      android.permission.RECEIVE_BOOT_COMPLETED
+      android.permission.USE_CREDENTIALS
+      android.permission.VIBRATE
+      android.permission.WRITE_EXTERNAL_STORAGE
+      android.permission.WRITE_SYNC_SETTINGS
+      android.permission.WRITE_USER_DICTIONARY
+      skylight.keyboard.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+      android.permission.READ_EXTERNAL_STORAGE
+    install permissions:
+      android.permission.DOWNLOAD_WITHOUT_NOTIFICATION: granted=true
+      android.permission.USE_CREDENTIALS: granted=true
+      android.permission.WRITE_SYNC_SETTINGS: granted=true
+      android.permission.RECEIVE_BOOT_COMPLETED: granted=true
+      android.permission.READ_PROFILE: granted=true
+      android.permission.INTERNET: granted=true
+      android.permission.ACCESS_NETWORK_STATE: granted=true
+      android.permission.WRITE_USER_DICTIONARY: granted=true
+      android.permission.READ_SYNC_STATS: granted=true
+      android.permission.READ_SYNC_SETTINGS: granted=true
+      android.permission.VIBRATE: granted=true
+      android.permission.READ_USER_DICTIONARY: granted=true
+      skylight.keyboard.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION: granted=true
+    User 0: ceDataInode=449252 installed=true hidden=false suspended=false distractionFlags=0 stopped=false notLaunched=false enabled=0 instant=false virtual=false
+      installReason=0
+      firstInstallTime=2026-08-05 02:41:41
+      uninstallReason=0
+      gids=[3003]
+      runtime permissions:
+        android.permission.READ_EXTERNAL_STORAGE: granted=false, flags=[ REVOKE_WHEN_REQUESTED|USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|RESTRICTION_INSTALLER_EXEMPT]
+        android.permission.GET_ACCOUNTS: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.WRITE_EXTERNAL_STORAGE: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|RESTRICTION_INSTALLER_EXEMPT]
+        android.permission.READ_CONTACTS: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+
+Queries:
+  system apps queryable: false
+  queries via forceQueryable:
+  queries via package name:
+    [com.android.localtransport,com.android.dynsystem,com.android.networkstack.inprocess,skylight.watchdog,com.android.server.telecom,android,com.android.settings,com.android.keychain,com.android.providers.settings,com.android.networkstack.tethering.inprocess,com.skylight,com.android.inputdevices,com.android.wallpaperbackup,com.android.location.fused]:
+      skylight.keyboard
+  queries via component:
+    com.android.settings.intelligence:
+      skylight.keyboard
+  queryable via interaction:
+    User 0:
+      [com.android.localtransport,com.android.dynsystem,com.android.networkstack.inprocess,skylight.watchdog,com.android.server.telecom,android,com.android.settings,com.android.keychain,com.android.providers.settings,com.android.networkstack.tethering.inprocess,com.skylight,com.android.inputdevices,com.android.wallpaperbackup,com.android.location.fused]:
+        skylight.keyboard
+      [com.android.providers.blockednumber,com.android.providers.userdictionary]:
+        skylight.keyboard
+      skylight.keyboard:
+        [com.android.localtransport,com.android.dynsystem,com.android.networkstack.inprocess,skylight.watchdog,com.android.server.telecom,android,com.android.settings,com.android.keychain,com.android.providers.settings,com.android.networkstack.tethering.inprocess,com.skylight,com.android.inputdevices,com.android.wallpaperbackup,com.android.location.fused]
+  queryable via uses-library:
+
+Dexopt state:
+  [skylight.keyboard]
+    path: /data/app/~~bayumG2r6BHazdiAkZ2yIQ==/skylight.keyboard-gdKMQ5uVRmASKPIJH4PiTQ==/base.apk
+      arm64: [status=verify] [reason=install]
+  BgDexopt state:
+    enabled:true
+    mDexOptThread:null
+    mDexOptCancellingThread:null
+    mFinishedPostBootUpdate:false
+    mLastExecutionStatus:0
+    mLastExecutionStartTimeMs:0
+    mLastExecutionDurationIncludingSleepMs:0
+    mLastExecutionStartUptimeMs:0
+    mLastExecutionDurationMs:0
+    now:1150167
+    mLastCancelledPackages:
+    mFailedPackageNamesPrimary:
+    mFailedPackageNamesSecondary:
+
+Compiler stats:
+  [skylight.keyboard]
+    (No recorded stats)

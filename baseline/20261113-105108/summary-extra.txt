@@ -1,0 +1,122 @@
+=== VENDOR PACKAGE VERSIONS / COMPONENTS ===
+--- com.skylight ---
+Activity Resolver Table:
+        e451eab com.skylight/odesk.johnlife.skylight.activity.MainActivity filter 6085908
+Receiver Resolver Table:
+        85cb823 com.skylight/com.myskylight.uitesting.e2e.appsupport.TestReceiver filter da74120
+        3ab7a6f com.skylight/androidx.profileinstaller.ProfileInstallReceiver filter 55e3c5a
+        3ab7a6f com.skylight/androidx.profileinstaller.ProfileInstallReceiver filter 2b237c
+        cba0ddd com.skylight/com.myskylight.weather.work.WeatherClockChangeReceiver filter 15f6d52
+        67f284d com.skylight/androidx.work.impl.background.systemalarm.RescheduleReceiver filter af9cf02
+          Action: "android.intent.action.BOOT_COMPLETED"
+        cba0ddd com.skylight/com.myskylight.weather.work.WeatherClockChangeReceiver filter 15f6d52
+        67f284d com.skylight/androidx.work.impl.background.systemalarm.RescheduleReceiver filter af9cf02
+          Action: "android.intent.action.BOOT_COMPLETED"
+        3ab7a6f com.skylight/androidx.profileinstaller.ProfileInstallReceiver filter 5161405
+        3ab7a6f com.skylight/androidx.profileinstaller.ProfileInstallReceiver filter 71f4e8b
+      android.intent.action.BOOT_COMPLETED:
+        de88a1 com.skylight/odesk.johnlife.skylight.receivers.BootReceiver filter 9e76ac6
+          Action: "android.intent.action.BOOT_COMPLETED"
+        eb8b37f com.skylight/me.pushy.sdk.receivers.PushyBootReceiver filter e8f4f4c
+          Action: "android.intent.action.BOOT_COMPLETED"
+        67f284d com.skylight/androidx.work.impl.background.systemalarm.RescheduleReceiver filter af9cf02
+          Action: "android.intent.action.BOOT_COMPLETED"
+        1a2fc49 com.skylight/androidx.work.impl.diagnostics.DiagnosticsReceiver filter 4b9d94e
+        4ceaad9 com.skylight/me.pushy.sdk.receivers.PushyUpdateReceiver filter e30c9e
+        534fa87 com.skylight/odesk.johnlife.skylight.receivers.NotificationReceiver filter 74dfdb4
+        6fbf013 com.skylight/androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver filter e1d3250
+        a49cf80 com.skylight/odesk.johnlife.skylight.activity.MainActivity
+            com.skylight/odesk.johnlife.skylight.activity.MainActivity
+    versionCode=27941 minSdk=25 targetSdk=35
+    versionName=26.33.0
+    lastUpdateTime=2026-11-13 03:32:54
+    installerPackageName=skylight.watchdog
+      firstInstallTime=2009-01-01 00:00:00
+        androidx.work.impl.background.systemalarm.RescheduleReceiver
+        androidx.work.impl.background.systemjob.SystemJobService
+    versionCode=23232 minSdk=22 targetSdk=35
+    versionName=26.21.0
+    lastUpdateTime=1969-12-31 23:59:59
+      firstInstallTime=1969-12-31 23:59:59
+--- skylight.watchdog ---
+Receiver Resolver Table:
+        f9a0df2 skylight.watchdog/.receivers.BootReceiver filter 3dc43
+          Action: "android.intent.action.BOOT_COMPLETED"
+        c37173e skylight.watchdog/.receivers.DatadogLoggingReceiver filter 47df99f
+        2f5cbee skylight.watchdog/androidx.profileinstaller.ProfileInstallReceiver filter 3c61f25
+        d9362c0 skylight.watchdog/.receivers.SkyframeAppCrashReceiver filter 57bbf9
+        2f5cbee skylight.watchdog/androidx.profileinstaller.ProfileInstallReceiver filter ede888f
+        1a6ab84 skylight.watchdog/androidx.work.impl.background.systemalarm.RescheduleReceiver filter 8516f6d
+          Action: "android.intent.action.BOOT_COMPLETED"
+        1a6ab84 skylight.watchdog/androidx.work.impl.background.systemalarm.RescheduleReceiver filter 8516f6d
+          Action: "android.intent.action.BOOT_COMPLETED"
+        2f5cbee skylight.watchdog/androidx.profileinstaller.ProfileInstallReceiver filter ff5e71c
+        2f5cbee skylight.watchdog/androidx.profileinstaller.ProfileInstallReceiver filter 476b8fa
+      android.intent.action.BOOT_COMPLETED:
+        f9a0df2 skylight.watchdog/.receivers.BootReceiver filter 3dc43
+          Action: "android.intent.action.BOOT_COMPLETED"
+        1a6ab84 skylight.watchdog/androidx.work.impl.background.systemalarm.RescheduleReceiver filter 8516f6d
+          Action: "android.intent.action.BOOT_COMPLETED"
+        ea4fbf0 skylight.watchdog/androidx.work.impl.diagnostics.DiagnosticsReceiver filter ca29569
+        5edd7a2 skylight.watchdog/androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver filter 7445c33
+    versionCode=11784 minSdk=22 targetSdk=35
+    versionName=3.7.2
+    lastUpdateTime=2026-10-20 12:52:10
+    installerPackageName=skylight.watchdog
+      firstInstallTime=2009-01-01 00:00:00
+    versionCode=11582 minSdk=22 targetSdk=35
+    versionName=3.6.0
+    lastUpdateTime=1969-12-31 23:59:59
+      firstInstallTime=1969-12-31 23:59:59
+--- skylight.keyboard ---
+Activity Resolver Table:
+        f7011d5 skylight.keyboard/com.android.inputmethod.latin.settings.SettingsActivity filter 7e4adea
+        65788db skylight.keyboard/com.android.inputmethod.latin.spellcheck.SpellCheckerSettingsActivity filter 35a2f78
+        6acf651 skylight.keyboard/com.android.inputmethod.dictionarypack.DictionarySettingsActivity filter e57beb6
+Receiver Resolver Table:
+        91a1a45 skylight.keyboard/androidx.profileinstaller.ProfileInstallReceiver filter 57466a8
+        5b806af skylight.keyboard/com.android.inputmethod.latin.accounts.AccountsChangedReceiver filter bbe5abc
+        9f9a68d skylight.keyboard/com.android.inputmethod.latin.SystemBroadcastReceiver filter e191042
+          Action: "android.intent.action.BOOT_COMPLETED"
+        9f9a68d skylight.keyboard/com.android.inputmethod.latin.SystemBroadcastReceiver filter e191042
+          Action: "android.intent.action.BOOT_COMPLETED"
+        91a1a45 skylight.keyboard/androidx.profileinstaller.ProfileInstallReceiver filter a7c659a
+        91a1a45 skylight.keyboard/androidx.profileinstaller.ProfileInstallReceiver filter d085ecb
+        91a1a45 skylight.keyboard/androidx.profileinstaller.ProfileInstallReceiver filter 7c715c1
+      android.intent.action.BOOT_COMPLETED:
+        9f9a68d skylight.keyboard/com.android.inputmethod.latin.SystemBroadcastReceiver filter e191042
+          Action: "android.intent.action.BOOT_COMPLETED"
+        9f9a68d skylight.keyboard/com.android.inputmethod.latin.SystemBroadcastReceiver filter e191042
+          Action: "android.intent.action.BOOT_COMPLETED"
+        8ac3853 skylight.keyboard/com.android.inputmethod.latin.DictionaryPackInstallBroadcastReceiver filter daf7590
+Service Resolver Table:
+      android.service.textservice.SpellCheckerService:
+        9fd4554 skylight.keyboard/com.android.inputmethod.latin.spellcheck.AndroidSpellCheckerService filter eee4cfd permission android.permission.BIND_TEXT_SERVICE
+          Action: "android.service.textservice.SpellCheckerService"
+    versionCode=27943 minSdk=25 targetSdk=35
+    versionName=1.5.0
+    lastUpdateTime=2026-11-13 03:33:03
+    installerPackageName=skylight.watchdog
+      firstInstallTime=2026-08-05 02:41:41
+=== DATA STORAGE ===
+Filesystem            Size Used Avail Use% Mounted on
+/dev/block/mmcblk2p15  10M  80K  9.4M   1% /metadata
+/dev/block/mmcblk2p14 320M 228K  308M   1% /cache
+/dev/block/mmcblk2p19 8.2G 319M  7.7G   4% /data
+/dev/fuse             8.2G 319M  7.7G   4% /storage/emulated
+=== NETWORK SUMMARY ===
+  NetworkAgentInfo{network{100}  handle{432902426637}  ni{WIFI CONNECTED extra: } Score(60 ; KeepConnected : 0 ; Policies : TRANSPORT_PRIMARY&EVER_VALIDATED_NOT_AVOIDED_WHEN_BAD&IS_UNMETERED&IS_VALIDATED)  created everValidated lastValidated  lp{{InterfaceName: wlan0 LinkAddresses: [ fe80::de3e:b6e0:5282:9964/64,172.16.0.62/24,fdc2:3a5a:4879:89f3:4961:195b:eafc:3cfc/64,fdc2:3a5a:4879:89f3:e6a3:466b:d232:2323/64 ] DnsAddresses: [ /172.16.0.1 ] Domains: null MTU: 0 ServerAddress: /172.16.0.1 TcpBufferSizes: 524288,1048576,2097152,262144,524288,1048576 Routes: [ fe80::/64 -> :: wlan0 mtu 0,fd77:b467:c69f:1::/64 -> fe80::4e9a:f528:c760:25c2 wlan0 mtu 0,fdc2:3a5a:4879:89f3::/64 -> :: wlan0 mtu 0,172.16.0.0/24 -> 0.0.0.0 wlan0 mtu 0,0.0.0.0/0 -> 172.16.0.1 wlan0 mtu 0 ]}}  nc{[ Transports: WIFI Capabilities: NOT_METERED&INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN&VALIDATED&NOT_ROAMING&FOREGROUND&NOT_CONGESTED&NOT_SUSPENDED&NOT_VCN_MANAGED LinkUpBandwidth>=12000Kbps LinkDnBandwidth>=60000Kbps Specifier: <WifiNetworkAgentSpecifier [WifiConfiguration=, SSID="timtam-5G", BSSID=9c:c9:eb:6a:63:7e, band=2, mMatchLocalOnlySpecifiers=false]> TransportInfo: <SSID: "timtam-5G", BSSID: 9c:c9:eb:6a:63:7e, MAC: 00:9c:17:49:01:60, IP: /172.16.0.62, Security type: 2, Supplicant state: COMPLETED, Wi-Fi standard: 5, RSSI: -58, Link speed: 135Mbps, Tx Link speed: 135Mbps, Max Supported Tx Link speed: 433Mbps, Rx Link speed: 24Mbps, Max Supported Rx Link speed: 433Mbps, Frequency: 5765MHz, Net ID: 0, Metered hint: false, score: 60, isUsable: true, CarrierMerged: false, SubscriptionId: -1, IsPrimary: 1, Trusted: true, Restricted: false, Ephemeral: false, OEM paid: false, OEM private: false, OSU AP: false, FQDN: <none>, Provider friendly name: <none>, Requesting package name: <none>"timtam-5G"wpa2-pskMLO Information: , AP MLD Address: <none>, AP MLO Link Id: <none>, AP MLO Affiliated links: <none>> SignalStrength: -58 OwnerUid: 1000 AdminUids: [1000] SSID: "timtam-5G" UnderlyingNetworks: Null]}  factorySerialNumber=6}
+  NetworkOffer [ Provider Id (2) Score(52 ; KeepConnected : 0 ; Policies : TRANSPORT_PRIMARY&EVER_VALIDATED_NOT_AVOIDED_WHEN_BAD&IS_UNMETERED&IS_VALIDATED) Caps [ Transports: CELLULAR Capabilities: MMS&SUPL&DUN&FOTA&IMS&CBS&IA&RCS&XCAP&EIMS&INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN&MCX&NOT_VCN_MANAGED UnderlyingNetworks: Null] Needed by [2]]
+  NetworkOffer [ Provider Id (4) Score(1000 ; KeepConnected : 0 ; Policies : EVER_VALIDATED_NOT_AVOIDED_WHEN_BAD&IS_INVINCIBLE&IS_UNMETERED&IS_VALIDATED) Caps [ Transports: CELLULAR Capabilities: MMS&SUPL&DUN&FOTA&IMS&CBS&IA&RCS&XCAP&EIMS&INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN&MCX&ENTERPRISE&MMTEL&PRIORITIZE_LATENCY&PRIORITIZE_BANDWIDTH Specifier: <android.net.MatchAllNetworkSpecifier@0> EnterpriseId: 1&2&3&4&5 UnderlyingNetworks: Null] Needed by []]
+  NetworkOffer [ Provider Id (5) Score(50 ; KeepConnected : 0 ; Policies : EVER_VALIDATED_NOT_AVOIDED_WHEN_BAD&IS_UNMETERED&IS_VALIDATED) Caps [ Transports: CELLULAR Capabilities: MMS&SUPL&DUN&FOTA&IMS&CBS&IA&RCS&XCAP&EIMS&INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN&MCX&NOT_VCN_MANAGED&ENTERPRISE&MMTEL&PRIORITIZE_LATENCY&PRIORITIZE_BANDWIDTH Specifier: <TelephonyNetworkSpecifier [mSubId = -1]> EnterpriseId: 1&2&3&4&5 UnderlyingNetworks: Null] Needed by [2]]
+  NetworkOffer [ Provider Id (6) Score(60 ; KeepConnected : 0 ; Policies : EVER_VALIDATED_NOT_AVOIDED_WHEN_BAD&IS_UNMETERED&IS_VALIDATED) Caps [ Transports: WIFI Capabilities: NOT_METERED&INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN&NOT_ROAMING&NOT_CONGESTED&NOT_SUSPENDED&NOT_VCN_MANAGED LinkUpBandwidth>=1048576Kbps LinkDnBandwidth>=1048576Kbps Specifier: <android.net.MatchAllNetworkSpecifier@0> UnderlyingNetworks: Null] Needed by [37, 33, 41, 28, 45, 14, 26, 47, 23, 7, 1, 18, 16]]
+  NetworkOffer [ Provider Id (7) Score(2147483647 ; KeepConnected : 0 ; Policies : EVER_VALIDATED_NOT_AVOIDED_WHEN_BAD&IS_INVINCIBLE&IS_UNMETERED&IS_VALIDATED) Caps [ Transports: WIFI Capabilities: NOT_METERED&INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN&NOT_ROAMING&NOT_CONGESTED&NOT_SUSPENDED&NOT_VCN_MANAGED LinkUpBandwidth>=1048576Kbps LinkDnBandwidth>=1048576Kbps Specifier: <android.net.MatchAllNetworkSpecifier@0> UnderlyingNetworks: Null] Needed by [37, 33, 41, 28, 45, 14, 26, 47, 23, 7, 1, 18, 16]]
+  NetworkOffer [ Provider Id (8) Score(2147483647 ; KeepConnected : 0 ; Policies : EVER_VALIDATED_NOT_AVOIDED_WHEN_BAD&IS_INVINCIBLE&IS_UNMETERED&IS_VALIDATED) Caps [ Transports: WIFI Capabilities: NOT_METERED&INTERNET&TRUSTED&NOT_VPN&NOT_ROAMING&NOT_CONGESTED&NOT_SUSPENDED&NOT_VCN_MANAGED LinkUpBandwidth>=1048576Kbps LinkDnBandwidth>=1048576Kbps Specifier: <android.net.MatchAllNetworkSpecifier@0> UnderlyingNetworks: Null] Needed by []]
+  NetworkOffer [ Provider Id (9) Score(2147483647 ; KeepConnected : 0 ; Policies : EVER_VALIDATED_NOT_AVOIDED_WHEN_BAD&IS_INVINCIBLE&IS_UNMETERED&IS_VALIDATED) Caps [ Transports: WIFI Capabilities: NOT_METERED&INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN&NOT_ROAMING&NOT_CONGESTED&NOT_SUSPENDED&OEM_PAID&OEM_PRIVATE&NOT_VCN_MANAGED LinkUpBandwidth>=1048576Kbps LinkDnBandwidth>=1048576Kbps Specifier: <android.net.MatchAllNetworkSpecifier@0> UnderlyingNetworks: Null] Needed by [37, 33, 41, 28, 45, 14, 26, 47, 23, 7, 1, 18, 16]]
+  NetworkOffer [ Provider Id (10) Score(2147483647 ; KeepConnected : 0 ; Policies : EVER_VALIDATED_NOT_AVOIDED_WHEN_BAD&IS_INVINCIBLE&IS_UNMETERED&IS_VALIDATED) Caps [ Transports: WIFI Capabilities: NOT_METERED&INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN&NOT_ROAMING&NOT_CONGESTED&NOT_SUSPENDED&NOT_VCN_MANAGED LinkUpBandwidth>=1048576Kbps LinkDnBandwidth>=1048576Kbps Specifier: <android.net.MatchAllNetworkSpecifier@0> UnderlyingNetworks: Null] Needed by [37, 33, 41, 28, 45, 14, 26, 47, 23, 7, 1, 18, 16]]
+=== KEYGUARD / NAVIGATION ===
+    mDisplayHomeButtonHandlers=    mKeyguardOccluded=false mKeyguardOccludedChanged=false mPendingKeyguardOccluded=false
+  mCurrentFocus=Window{d006fa7 u0 com.android.settings/com.android.settings.SubSettings}
+  mFocusedApp=ActivityRecord{6d62955 u0 com.android.settings/.SubSettings} t7}
+    mKeyguardDrawComplete=true mWindowManagerDrawComplete=true
+    mShowingDream=false mDreamingLockscreen=false
